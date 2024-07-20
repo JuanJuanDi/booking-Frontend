@@ -12,18 +12,19 @@ import { BookingService } from './services/booking.service';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    RoomListComponent,
-    BookingFormComponent,
-    NotificationComponent
+    AppComponent,             // Componente raíz de la aplicación
+    RoomListComponent,        // Componente para mostrar la lista de habitaciones
+    BookingFormComponent,     // Componente para el formulario de reserva
+    NotificationComponent     // Componente para mostrar notificaciones
+    
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    ReactiveFormsModule
+    BrowserModule,            // Módulo necesario para la aplicación en el navegador
+    AppRoutingModule,         // Módulo de enrutamiento de la aplicación
+    HttpClientModule,         // Módulo para realizar solicitudes HTTP
+    ReactiveFormsModule       // Módulo para trabajar con formularios reactivos
   ],
-  providers: [BookingService],
-  //bootstrap: [AppComponent]
+  providers: [BookingService], // Servicio para manejar la lógica de reservas
+  bootstrap: [AppComponent]   // Componente raíz que se inicializa al arrancar la aplicación
 })
 export class AppModule { }

@@ -1,23 +1,28 @@
-header{
-    background-color: #f8f9fa;
-    padding: 1rem;
-    text-align: center;
+/* Estilos para el encabezado */
+header {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    padding: 1rem; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
 }
 
-nav{
-    margin: 1rem 0;
+/* Estilos para la navegación */
+nav {
+    margin: 1rem 0; /* Espaciado vertical */
 }
 
+/* Estilos para los enlaces de navegación */
 nav a {
-    margin: 0 1rem;
-    text-decoration: none;
-    color: #007bff;
+    margin: 0 1rem; /* Espaciado horizontal entre enlaces */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+    color: #007bff; /* Color de texto azul */
 }
 
-nav a:hover{
-    text-decoration: underline;
+/* Estilos para los enlaces de navegación al pasar el cursor */
+nav a:hover {
+    text-decoration: underline; /* Subrayar enlace al pasar el cursor */
 }
 
-main{
-    padding: 1rem;
+/* Estilos para el contenido principal */
+main {
+    padding: 1rem; /* Espaciado interno */
 }

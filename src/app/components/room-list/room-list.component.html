@@ -1,7 +1,9 @@
 <h2>Available Rooms</h2>
 <ul>
-    <li *ngFor="let room of rooms">
-        Room Number: {{ room.number}} - 
-        <button (click)="bookRoom(room.number)" [disabled]="!room.Available">Book</button>
-    </li>
+  <li *ngFor="let room of rooms">
+    Room Number: {{ room.number }} - 
+    <button (click)="bookRoom(room.number)" [disabled]="!room.Available">
+      Book
+    </button>
+  </li>
 </ul>

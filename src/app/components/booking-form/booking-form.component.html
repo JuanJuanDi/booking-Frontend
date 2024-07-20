@@ -1,13 +1,17 @@
 <h2>Book a Room</h2>
 <form [formGroup]="bookingForm" (ngSubmit)="onSubmit()">
+    <!-- Etiqueta para el campo de número de habitación -->
     <label for="roomNumber">Room Number</label>
+    <!-- Campo de entrada para el número de habitación con enlace de formulario reactivo -->
     <input id="roomNumber" formControlName="roomNumber">
+
+    <!-- Botón para enviar el formulario -->
     <button type="submit">Book</button>
 
-    <!-- <app-notification 
-    *ngIf="notificationMessage" 
-    [message]="notificationMessage" 
-    <!-- [type]="notificationType"> 
-    
-    </app-notification> -->
+    <!-- Componente de notificación que muestra el mensaje si existe -->
+    <app-notification 
+        *ngIf="notificationMessage" 
+        [message]="notificationMessage" 
+        [type]="notificationType">
+    </app-notification> 
 </form>

@@ -1,13 +1,13 @@
 <div>
   <header>
-    <h1>Hotel Booking</h1>
+    <h1>{{ title }}</h1> <!-- Utiliza la propiedad 'title' del componente -->
     <nav>
-      <a routerLink="/">Home</a>
-      <a routerLink="/book">Book a Room</a>
+      <a routerLink="/">Home</a> <!-- Enlace a la página principal -->
+      <a routerLink="/book">Book a Room</a> <!-- Enlace al formulario de reserva -->
     </nav>
   </header>
 
-  <!-- <main>
-    <router-outlet></router-outlet>
-  </main> -->
+  <main>
+    <router-outlet></router-outlet> <!-- Lugar donde se renderizan los componentes enrutados -->
+  </main>
 </div>
