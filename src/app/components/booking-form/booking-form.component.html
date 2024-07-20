@@ -1,0 +1,13 @@
+<h2>Book a Room</h2>
+<form [formGroup]="bookingForm" (ngSubmit)="onSubmit()">
+    <label for="roomNumber">Room Number</label>
+    <input id="roomNumber" formControlName="roomNumber">
+    <button type="submit">Book</button>
+
+    <!-- <app-notification 
+    *ngIf="notificationMessage" 
+    [message]="notificationMessage" 
+    <!-- [type]="notificationType"> 
+    
+    </app-notification> -->
+</form>
