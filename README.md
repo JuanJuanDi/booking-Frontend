@@ -1,27 +1,24 @@
-# HotelBookingFrontend
+Booking Backend # Booking backend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.1.
+🚨 Notice 🚨 Aviso
 
-## Development server
+We are currently experiencing some technical issues with this repository. Here are some important details: 
+Actualmente estamos enfrentando algunos problemas técnicos con este repositorio. Aquí hay algunos detalles importantes:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+⚠️ Current Issues ⚠️ Problemas Actuales
 
-## Code scaffolding
+We are encountering coding errors, with general functionality failures.
+Estamos experimentando fallos en la escritura del codigo, con fallos de de funncionamiento general.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+🔧 What We Are Doing 🔧 Qué Estamos Haciendo
 
-## Build
+- We are working to resolve the problem.
+- We have created a new repository where the project will be developed correctly:
+  https://github.com/JuanJuanDi/Hotel-Booking-Frontend
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+-Estamos trabajando para resolver el problema.
+-Creamos un nuevo repositorio donde se realizara correctamente el proyecto: 
+  https://github.com/JuanJuanDi/Hotel-Booking-Frontend
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Thank you for your understanding. 
+Gracias por la comprencion.
